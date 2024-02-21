@@ -16,7 +16,7 @@ Select * FROM appleStore_description4
 
 
 **EXPLORATORY DATA ANALYSIS**
---Check the number of uniqlue apps in both tablesAppleStore
+--Check the number of unique apps in both tablesAppleStore
 
 SELECT COUNT(DISTINCT id) AS UniqueAppIDs
 FROM AppleStore
@@ -34,7 +34,7 @@ SELECT COUNT(*) AS MissingValues
 FROM appleStore_description_combined
 Where app_desc is NULL
 
--- Find our the number of apps per genre
+-- Find out the number of apps per genre
 
 Select prime_genre, COUNT(*) AS NumApps
 From AppleStore 
@@ -48,7 +48,7 @@ Select min(user_rating) AS MinRating,
        avg(user_rating) AS AVGRating
 FROM AppleStore
 
--- Get the distrubution of app prices	
+-- Get the distribution of app prices	
 
 SELECT
 	(price / 2) *2 AS PriceBinStart,
