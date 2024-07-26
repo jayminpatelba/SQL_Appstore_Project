@@ -1,3 +1,2 @@
 # SQL_Appstore_Project
-App developer seeking data-driven insights to guide decisions on app development.
-They are interested in understanding popular app categories, optimal pricing strategies, and maximizing user ratings.
+I leverage data-driven insights to guide my decisions on app development. My recent personal project involved an in-depth analysis of the Apple Store app data to identify popular app categories, optimal pricing strategies, and factors that maximize user ratings. By utilizing SQL, I extracted meaningful trends and actionable insights that could help future developers in creating successful apps.
