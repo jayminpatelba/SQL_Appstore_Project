@@ -15,7 +15,7 @@ UNION all
 Select * FROM appleStore_description4
 
 
-													--EXPLORATORY DATA ANALYSIS
+	--EXPLORATORY DATA ANALYSIS
 	
 --Check the number of unique apps in both tablesAppleStore
 
@@ -60,7 +60,7 @@ SELECT
 Group By PriceBinStart
 ORDER By PriceBinStart
 
-                                                                                                       --DATA ANALYSIS
+         --DATA ANALYSIS
 
 -- Determine whether paid apps have higher ratings than free apps
 
@@ -94,7 +94,8 @@ group by prime_genre
 order by Avg_Rating ASC
 Limit 10 
 
-									--FINAL INSIGHTS
+	--FINAL INSIGHTS
+
 --Paid apps have better ratings
 --Apps supporting between 10 and 30 languages have better ratings
 --Finance and book apps have low ratings
